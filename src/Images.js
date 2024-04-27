@@ -20,7 +20,7 @@ const Images = () => {
         {
           Image.map((item)=><img className='w-60 h-60 rounded-xl m-2' src={item.url} alt='cat-images'/>)
         }
-    </div>
+    </div> 
   )
 }
 
